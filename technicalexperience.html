@@ -1,1 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel = "stylesheet" href = "static/bootstrap.min.css"/>
+    <link rel = "stylesheet" href = "static/style.css"/>
+    <link rel = "stylesheet" href = "{{ url_for('static', filename = 'bootstrap.min.css')}}"/>
+    <link rel = "stylesheet" href = "{{ url_for('static', filename = 'style.css')}}"/>
+    <title>Sarah Stevens</title>
+    
+  </head>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+  <a class="navbar-brand" href="#">Sarah Stevens</a>
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="/">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/">Technical Experience</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/">Projects</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="/">Involvement/Other Experience</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="/">Contact Me</a>
+      </li>
+    </ul>
+</nav>
+  <body class="text-center">
+    
+<main class="centered">
 
+  <br><br>
+    <a href = "https://github.com/stevensse21"> 
+      <img src="https://www.sferalabs.cc/wp-content/uploads/github-logo.png">
+  </a><br><br>
+    <a href = "https://www.linkedin.com/in/sarahstevens21/"> 
+    <img src="https://toppng.com/uploads/preview/linkedin-logo-vector-icons-linkedin-icon-vector-circle-115533859484o8nwgwfy4.png">
+  </a><br><br>
+    <a class="btn btn-lg btn-primary" href = "/"> Email Me! </a><br><br>
+    <a class="btn btn-lg btn-primary" href = "/"> Resume! </a><br><br>
+</main>
+    
+  </body>
+  <footer class="footer"><a href = "/reset" class="w-100 btn btn-lg btn-primary""> For Later</a></footer>
+  
+</html>
