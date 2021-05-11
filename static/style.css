@@ -13,6 +13,11 @@ th,td {
     margin-right:auto;
 }
 
+img {
+    width: 15 px;
+    height: 15 px;
+}
+
 .login {
     border-radius: 20px;
     background: #e7e7e7;
