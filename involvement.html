@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel = "stylesheet" href = "static/bootstrap.min.css"/>
+    <link rel = "stylesheet" href = "static/style.css"/>
+    <link rel = "stylesheet" href = "{{ url_for('static', filename = 'bootstrap.min.css')}}"/>
+    <link rel = "stylesheet" href = "{{ url_for('static', filename = 'style.css')}}"/>
+    <title>Sarah Stevens</title>
+    
+  </head>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+  <a class="navbar-brand" href="#">Sarah Stevens</a>
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="/website/index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/website/technicalexperience.html">Technical Experience</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/website/projects.html">Projects</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="/website/involvement.html">Involvement/Other Experience</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="/">Contact Me</a>
+      </li>
+    </ul>
+</nav>
+  <body class="text-center">
+    
+<main class="centered">
+    <div>
+     <h1>GWU Research Internship</hl>
+     <h6>Summer 2021</h6>
+    <p>Developed a network of open-source distributed systems to improve performance, security and dependability for
+    other organizations to use under Tim Wood.</p>
+  </div>
+  <div>
+     <h1>Undergraduate Teaching Assistant</hl>
+     <h6>August 2020-Present</h6>
+    <p>Assist professor and teaching assistants in Introduction to Python class. 
+      This includes teaching labs, assisting students on homework and projects, 
+      holding office hours, and adjusting syllabus for future classes.</p>
+  </div>
+  <div>
+  <h1>Technology Services Intern</hl>
+  <h6>Summer 2019</h6>
+  <p>Chosen as one of seven high school interns in Pittsburgh's one-month Technology Work program. 
+    Placed in Technology Services to do data analysis, website development, and secretarial assistance</p>
+    <img src="static/image.png">
+  </div>
+</main>
+    
+  </body>
+  <footer class="footer"><a href = "/reset" class="w-100 btn btn-lg btn-primary""> For Later</a></footer>
+  
+</html>
