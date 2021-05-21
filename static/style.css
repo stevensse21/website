@@ -8,7 +8,7 @@ th,td {
     text-align: center;
 }
 
-.navbar {
+.navbar, footer {
   background-color: rgb(225,170,170);
 }
 
@@ -149,5 +149,4 @@ header {
 
   .w-100 btn btn-lg btn-primary input[type="submit"]{
     width: 50%;
-    background-color: rgb(225,170,170)
   }
