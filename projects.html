@@ -38,19 +38,9 @@
       </a></h6>
   <div style="height: 300px; width: 50%; float: left;">
     <p>This is a simulation of Zombies (the red dots) taking over Humans (the white dots) and displays GUI skills in Java and comes from an assignment from a 
-      software engineering course. 
-      My Zombie Infestation Simulator begins with the creation of a new City, from the City class, anad populating the city by randomly creating 
-      buildings and placing 200 humans within the space outside of the buildings. They cannot exit the screen or enter the buildings. 
-      They begin with a x and y coordinate, starting direction, and other variables to identify them as humans and track their location. 
-      If they are heading in the direction of doing so, they turn away. The turn away is somewhat strategic. However, since their direction is random their movement 
-      is still random. They have a 10% chance of turning if they are not interfered with. The simulation also begins with 1 zombie. This zombie follows the same rules as the 
-      humans, yet has a 20% chance of changing directions if not interfered with. The way movement is implemented is through the call of a move function and it's assisting functions. 
-      This function is called for every entity in action. The function begins on deciding if the entity should change directions, and doing so. It follows by checking to see if another entity is nearby. 
-      This will be further covered below. Otherwise, using helper functions, it is determine whether the entity can move in the specified direction. If there is something blocking this, helper functions help determine a 
-      direction that the entity can move in and the entity moves one step. Both the zombies and the humans are stored as ArrayLists of the objects and each human/zombie object is indivually moved and tracked. They are also 
-      both extended from the Entity class. This class implements all necessary functions. The differences between zombies and humans are helded within their individual classes. The location of the zombies, humans, and walls is 
-      tracked by boolean arrays.
-A zombie can be added to the simulation by clicking on the simulation with the mouse. The location of the cursor 
+      software engineering course. Characters cannot exit the screen or enter the buildings. 
+      If they are heading in the direction of doing so, they turn away. They have a 10% chance of turning if they are not interfered with. The simulation also begins with 1 zombie. This zombie follows the same rules as the 
+      humans, yet has a 20% chance of changing directions if not interfered with. A zombie can be added to the simulation by clicking on the simulation with the mouse. The location of the cursor 
       when clicked is the location of the zombie that is added. This zombie follows the same rules as the randomly generating zombies, except the x and y coordinates are not random and, 
       instead, decided by the mouse click. If the mouse click occurs over a building, nothing will happen, since a zombie cannot be in a building.</p>
   </div>
